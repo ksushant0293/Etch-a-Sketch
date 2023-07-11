@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./image/6530.jpg);
+  }
+
+  .container{
+    width: 30%;
+    height: 80%;
+    border: 2px solid  rgb(92, 155, 171) ;
+  }
+  .grid-row{
+    display: flex;
+  }
+  .grid-box{
+    border:  rgb(92, 155, 171);
+    background-color:#b1d0e1;
+  }
+  
+  .main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
